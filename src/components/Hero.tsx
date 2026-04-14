@@ -7,17 +7,17 @@ export function Hero() {
       <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 text-brand-purple text-[10px] md:text-[11px] font-semibold uppercase tracking-wider mb-8 border border-white/5">
         <div className="flex -space-x-2 md:-space-x-3">
           {[1, 2, 3, 4].map(i => (
-            <img 
-              key={i} 
-              src={`https://i.pravatar.cc/150?u=${i}`} 
-              className="w-7 h-7 md:w-[35px] md:h-[35px] rounded-full border border-[#09090B] grayscale transition-all hover:grayscale-0" 
-              alt="avatar" 
+            <img
+              key={i}
+              src={`https://i.pravatar.cc/150?u=${i}`}
+              className="w-7 h-7 md:w-[35px] md:h-[35px] rounded-full border border-[#09090B] grayscale transition-all hover:grayscale-0"
+              alt="avatar"
             />
           ))}
         </div>
         <div className="text-left leading-tight md:leading-[17px]">
           Trusted by <span className="bg-gradient-to-br from-brand-purple to-transparent px-1 rounded-sm font-black text-white">100+</span> <br />
-          Creators and Founders
+          Creators and FFFounders
         </div>
       </div>
 
@@ -38,8 +38,8 @@ export function Hero() {
           3 spots left this month
         </div>
 
-        <a 
-          href="#schedule" 
+        <a
+          href="#schedule"
           className="group inline-flex items-center gap-2 bg-brand-purple text-white px-6 py-3.5 sm:px-8 sm:py-4 rounded-full font-bold text-base sm:text-lg hover:bg-brand-purple/90 transition-all hover:scale-105 active:scale-95 shadow-xl shadow-brand-purple/20 border-4 border-black/20"
         >
           <CalendarDays className="w-5 h-5" />
@@ -50,10 +50,10 @@ export function Hero() {
         <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-8 mt-12 text-[13px] sm:text-[15px] text-gray-400 font-medium max-w-3xl">
           <span className="flex items-center gap-2 sm:gap-3">
             <div className="w-8 h-8 sm:w-[35px] sm:h-[35px] border border-brand-purple/30 rounded-lg flex items-center justify-center shrink-0">
-              <img 
-                src={sdIcon} 
-                className="w-4 h-4 sm:w-5 sm:h-5" 
-                style={{ filter: 'brightness(0) saturate(100%) invert(48%) sepia(91%) saturate(3626%) hue-rotate(247deg) brightness(101%) contrast(102%)' }} 
+              <img
+                src={sdIcon}
+                className="w-4 h-4 sm:w-5 sm:h-5"
+                style={{ filter: 'brightness(0) saturate(100%) invert(48%) sepia(91%) saturate(3626%) hue-rotate(247deg) brightness(101%) contrast(102%)' }}
               />
             </div>
             Senior designers
