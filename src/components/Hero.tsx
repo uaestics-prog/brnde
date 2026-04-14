@@ -17,7 +17,7 @@ export function Hero() {
         </div>
         <div className="text-left leading-tight md:leading-[17px]">
           Trusted by <span className="bg-gradient-to-br from-brand-purple to-transparent px-1 rounded-sm font-black text-white">100+</span> <br />
-          Creators and FFFounders
+          Creators and Founders
         </div>
       </div>
 
